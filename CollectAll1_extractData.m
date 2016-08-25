@@ -1,4 +1,4 @@
-%% Data is extracted per session for Generalization experiments
+%% Data is extracted per session for Pairwise Discrimination experiments
 
 % Last edited: 19/08/2016
 
@@ -28,10 +28,10 @@
 clc;clear all;
 
 %adjust filename and location:
-filename = 'TC_CollectAll.csv';
-filepath = 'C:\Users\u0105250\Documents\Temporal_Contiguity 01_04_2016\Collect_All\';
+filename = 'fileName.csv';          % File exported from Abet
+filepath = 'C:\YourDirectoryPath\'; % Location of the file
 
-outputPath = 'C:\Users\u0105250\Documents\Temporal_Contiguity 01_04_2016\Collect_All\';
+outputPath = 'C:\YourDirectoryPath\'; % Location of the output file
     useExcel = 0;
     saveFile = 1;
     
